@@ -19,7 +19,7 @@ export class ZoomLensImageComponent implements OnInit {
 	@Input() alttext: string;
 	@Input() size: string;
 
-	@ViewChild('cis', {static: false}) el: ElementRef;
+	@ViewChild('zli', {static: false}) el: ElementRef;
 
 	constructor() { }
 
